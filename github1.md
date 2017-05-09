@@ -68,12 +68,12 @@ javascript是最受欢迎的语言之一。
 15.克隆仓库   
 16.git i  
 17.git rm   
-18.git mv  
-19. $ git Commit  
-20.git Commit -a  
-21.$ git status  
-22.$ git log  
-23.提交   
+18.git mv    
+19. git Commit    
+20.git Commit -a    
+21.$ git status     
+22.$ git log      
+23.提交     
 24.过去版本  
 25.将来  
 # 作业三
