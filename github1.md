@@ -28,11 +28,11 @@ javascript是最受欢迎的语言之一。
 
 7.人，仓库
 
-8.数字仪表板，
+8.数字仪表板，个人界面
 
-9.
+9.个人情况概览，仓库，star，follow，follower
 
-10.
+10.仓库内容的活跃程度
 
 11.关注
 
@@ -69,9 +69,11 @@ javascript是最受欢迎的语言之一。
 16.git i  
 17.git rm   
 18.git mv  
-19.   
-    
-23.提交   
+19. $ git Commit  
+20.git Commit -a  
+21.$ git status  
+22.$ git log  
+23.提交   
 24.过去版本  
 25.将来  
 # 作业三
