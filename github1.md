@@ -55,8 +55,8 @@ javascript是最受欢迎的语言之一。
 6.CD是改变当前的目录  
 7.显示文字    
 8.git config --global user.name [username]  
-9.git config user.email 'xxx@163.com'  
-10./  
+9.git config user.email '247197442@qq.com'  
+10./  
 11.ctrl c  
 12.快   
 13.1，原材料入库，未检验或检验后有疑惑，待处理。   
