@@ -3,4 +3,4 @@
 1.hello world  
 **hello world**  
 *hello world*  
-[�ٶ�](https://www.baidu.com/index.php?tn=02049043_6_pg)
+本人第一个github仓库  通常会写一点与学习相关的文本
