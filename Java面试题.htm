@@ -1,0 +1,1940 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="Java面试题.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>wang</o:Author>
+  <o:LastAuthor>wang</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:LastPrinted>2018-07-21T03:13:00Z</o:LastPrinted>
+  <o:Created>2018-07-21T03:20:00Z</o:Created>
+  <o:LastSaved>2018-07-21T03:20:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>852</o:Words>
+  <o:Characters>4858</o:Characters>
+  <o:Lines>40</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5699</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="Java面试题.files/themedata.thmx">
+<link rel=colorSchemeMapping href="Java面试题.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>1</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>servlet</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>执行流程</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>客户端发出</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>http</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>请求，</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>web</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>服务器将请求转发到</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>容器，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>容器解析</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>url</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>并根据</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>web.xml</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>找到相对应的</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>，并将</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>request</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>、</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>response</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>对象传递给找到的</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>根据</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>request</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>就可以知道是谁发出的请求，请求信息及其他信息，当</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>处理完业务逻辑后会将信息放入到</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>response</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>并响应到客户端。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>2</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>springMVC</span></strong></span><strong><span style='font-family:
+宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>的执行流程</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>springMVC</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>是由</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>为核心的分层控制框架。首先客户端发出一个请求</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>web</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>服务器解析请求</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>url</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>并去匹配</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>的映射</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>url</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>，如果匹配上就将这个请求放入到</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>，</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>根据</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>mapping</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>映射配置去寻找相对应的</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>handel</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>，然后把处理权交给找到的</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>handel</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>，</span><span class=SpellE><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-bidi-font-family:Arial;color:#4F4F4F'>handel</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>封装了处理业务逻辑的代码，当</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>handel</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>处理完后会返回一个逻辑视图</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>modelandview</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>给</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>，此时的</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>modelandview</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>是一个逻辑视图不是一个正式视图，所以</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatchservlet</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>会通过</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>viewresource</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>视图资源去解析</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>modelandview</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>，然后将解析后的参数放到</span><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-bidi-font-family:Arial;color:#4F4F4F'>view</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>中返回到客户端并展现。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>3</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>给定一个</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>txt</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>文件，如何得到某字符串出现的次数</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>File&nbsp;</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>file</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>new</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;<span
+class=GramE>File(</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#2A00FF'>&quot;E://test.txt&quot;</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>);<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>InputStream</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><u><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>is</span></u><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>new</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;<span
+class=SpellE><span class=GramE>FileInputStream</span></span><span class=GramE>(</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>file</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>);<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>byte</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>b</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[] =&nbsp;</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>new</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>byte</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[1024];<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>is</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>.read</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>(</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>b</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>);<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>String&nbsp;</span><span class=SpellE><span
+class=GramE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>str</span></span></span><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>] =&nbsp;</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>new</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;String(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>b</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>,0,</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>).split(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#2A00FF'>&quot;&quot;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>);<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>count</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;= 0;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>for</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>(</span></span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>i</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;= 0;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>i</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&lt;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>str</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>.</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#0000C0'>length</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>;</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>++){<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>if</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>(</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#2A00FF'>&quot;<span
+class=SpellE>a&quot;<span style='color:#4F4F4F'>.equals</span></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>(</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>str</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>[</span><span class=SpellE><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#6A3E3E'>i</span></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>]))</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>count</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>++;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>System.</span><em><b><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#0000C0'>out</span></b></em><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>.println</span></span></span><span
+class=GramE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>(</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>count</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>);<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>4</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>Java</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>设计模式思想（单列模式，工厂模式，策略模式，共<span
+lang=EN-US>23</span>种设计模式）</span></strong><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)<span class=GramE>&nbsp;<span lang=EN-US
+style='font-family:宋体'><span lang=EN-US>单例模式</span></span></span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>：<span class=GramE>单例模式</span>核心只需要</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>new</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>一个实例对象的模式，比如数据库连接，在线人数等，一些网站上看到的在线人数统计就是通过<span
+class=GramE>单例模式</span>实现的，把一个计时器存放在数据库或者内存中，当有人登陆的时候取出来加一再放回去，有人退出登陆的时候取出来减一再放回去，但是当有两个人同时登陆的时候，会同时取出计数器，同时加一，同时放回去，这样的话数据就会错误，所以需要一个全局变量的对象给全部人使用，只需要</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>new</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>出一个实例对象，这就是<span class=GramE>单例模式</span>的应用，并且<span
+class=GramE>单例模式</span>节省资源，因为它控制了实例对象的个数，并有利于</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>gc</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>回收。</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>策略模式：就是将几个类中公共的方法提取到一个新的类中，从而使扩展更容易，保证代码的可移植性，可维护性强。比如有<span
+class=GramE>个需求</span>是写鸭子对象，鸭子有叫，飞，外形这三种方法，如果每个<span class=GramE>鸭子类都写</span>这三个方法会出现代码的冗余，这时候我们可以把鸭子中的叫，飞，外形这三个方法提取出来，<span
+class=GramE>放到鸭父类中</span>，让每个鸭子都继承<span class=GramE>这个鸭父类</span>，重写这三个方法，这样封装的代码可移植性强，当用户提出新的需求比如鸭子会游泳，那么对于我们</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>oo</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>程序员来讲就非常简单了我们只需要<span class=GramE>在鸭父类中加</span>一个游泳的方法，让会游泳的鸭子重写游泳方法就可以了。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>工厂模式：简单的工厂模式主要是统一提供实例对象的引用，通过工厂模式接口获取实例对象的引用。比如一个登陆功能，后端有三个类，</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>controller</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>类，</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>interface</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>类，实现接口的实现类。当客户端发出一个请求，当请求传到</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>controller</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>类中时，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>controller</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>获取接口的引用对象，而实现接口的实现类中封装好了登陆的业务逻辑代码。当你需要加一个注册需求的时候只需要在接口类中加一个注册方法，实现类中实现方法，</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>controller</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>获取接口的引用对象即可，不需要改动原来的代码，这种做法是的可拓展性强。</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>5</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>冒泡排序、二分查找</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>冒泡</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;&nbsp;</span><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>public</span></strong></span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>static</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>void</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;<span
+class=SpellE>mp</span>(</span><span class=SpellE><strong><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[]) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>swap</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;= 0;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>for</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>i</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=
+0;&nbsp;</span><span class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>&nbsp;&lt;&nbsp;</span><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>.</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#0000C0'>length</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>;&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>++) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>for</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>j</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>;&nbsp;</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>j</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>&nbsp;&lt;&nbsp;</span><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>.</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#0000C0'>length</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>;&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>j</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>++</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>if</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>j</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>] &gt;&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>]) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>swap</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>];<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span></span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>] =&nbsp;</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>a</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>[</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>j</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>];<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>j</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>] =&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>swap</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>System.</span><em><b><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#0000C0'>out</span></b></em><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>.println</span></span></span><span
+class=GramE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>(</span></span><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>Arrays.<em><span
+style='font-family:"Arial","sans-serif"'>toString</span></em></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>));<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>二分查找</span><strong><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#7F0055'>public</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>static</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span></strong><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<span class=SpellE>ef</span>(</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[],&nbsp;</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>tag</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>first</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;= 0;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>end</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>a</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>.</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#0000C0'>length</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>for</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#7F0055'>int</span></strong></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>i</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=
+0;&nbsp;</span><span class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>&nbsp;&lt;&nbsp;</span><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>.</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#0000C0'>length</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>;&nbsp;</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#6A3E3E'>i</span></span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>++) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=SpellE><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>int</span></strong></span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;= (</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>first</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;+&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>end</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>) / 2;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>if</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>tag</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;==&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>]) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>return</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>if</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>tag</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;&gt;&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>]) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>first</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;+ 1;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>if</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;(</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>tag</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;&lt;&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>a</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>[</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>]) {<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#6A3E3E'>end</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;=&nbsp;</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#6A3E3E'>middle</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;- 1;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>&nbsp;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span class=GramE><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#7F0055'>return</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>&nbsp;0;<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>}<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>6</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>对</span></strong><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>ajax</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>的理解</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;Ajax</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>为异步请求，即局部刷新技术，在传统的页面中，用户需要点击按钮或者事件触发请求，到刷新页面，而异步技术为不需要点击即可触发事件，这样使得用户体验感增强，比如商城购物车的异步加载，当你点击商品时无需请求后台而直接动态修改参数。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>9</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<span
+class=GramE><strong><span style='font-family:宋体;mso-ascii-font-family:Arial;
+mso-hansi-font-family:Arial;mso-bidi-font-family:Arial'>父类与</span></strong></span><strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>子类之间的调用顺序（打印结果）</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)<span class=GramE>&nbsp;<span lang=EN-US
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial'><span
+lang=EN-US>父类静态</span></span></span></span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>代码块</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>子类静态代码块</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;</span><span class=GramE><span
+style='mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#4F4F4F'>父类构造</span></span><span style='mso-ascii-font-family:Arial;
+mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>方法</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>子类构造方法</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>子类普通方法</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>f)&nbsp;</span><span class=GramE><span
+style='mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#4F4F4F'>重写父类的</span></span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>方法，则打印重写后的方法</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>10</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>内部类与外部类的调用</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>内部类可以直接调用外部类包括</span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>private</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>的成员变量，使用外部类引用的</span><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-bidi-font-family:Arial;color:#4F4F4F'>this.</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>关键字调用即可</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>而外部类调用内部类需要建立内部类对象</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>11</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>多线程</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>一个进程是一个独立的运行环境，可以<span class=GramE>看做</span>是一个程序，而线程可以<span
+class=GramE>看做</span>是进程的一个任务，比如</span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>QQ</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>是一个进程，而一个</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>QQ</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>窗口是一个线程。</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>在多线程程序中，多线程并发可以提高程序的效率，</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>cpu</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>不会因为某个线程等待资源而进入空闲状态，它会把资源让给其他的线程。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>用户线程就是我们开发程序是创建的线程，而守护线程为系统线程，如</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>JVM</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>虚拟中的</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>GC</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>线程的优先级别：每一个线程都有优先级别，有限级别高的可以先获取</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>CPU</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>资源使该线程从就绪状态转为运行状态。也可以自定义线程的有限级别</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>死锁：至少两个以上线程争取两个以上</span><span class=SpellE><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>cpu</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>资源，避免死锁就避免使用嵌套锁，只需要在他们需要同步的地方加锁和避免无限等待</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>12</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>AOP</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>与</span></strong><strong><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>IOC</span></strong><strong><span style='font-family:宋体;
+mso-bidi-font-family:Arial;color:#4F4F4F'>的概念（即<span lang=EN-US>spring</span>的核心）</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;IOC</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>：</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>Spring</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>是开源框架，使用框架可以使我们减少工作量，提高工作效率并且它是分层结构，即相对应的层处理对应的业务逻辑，减少代码的耦合度。而</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>spring</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>的核心是</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>IOC</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>控制反转和</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>AOP</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>面向切面编程。</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>IOC</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>控制反转主要强调的是程序之间的关系是由容器控制的，容器控制对象，控制了对外部资源的获取。而反转即为，在传统的编程中都是由我们创建对象获取依赖对象，而在</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>IOC</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>中是容器帮我们创建对象并注入依赖对象，正是容器帮我们查找和注入对象，对象是被获取，所以叫反转。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;AOP</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>：面向切面编程，主要是管理系统层的业务，比如日志，权限，事物等。</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>AOP</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>是将封装好的对象剖开，找出其中对多个对象产生影响的公共行为，并将其封装为一个可重用的模块，这个模块被命名为切面（</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>aspect</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>），切面将那些与业务逻辑无关，却被业务模块共同调用的逻辑提取并封装起来，减少了系统中的重复代码，降低了模块间的耦合度，同时提高了系统的可维护性。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>13</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>hibernate</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>的核心思想</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;Hibernate</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>的核心思想是</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>ROM</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>对象关系映射机制。它是将表与表之间的操作映射<span
+class=GramE>成对象</span>与对象之间的操作。也就是从数据库中提取的信息会自动按照你设置的映射要求封装成特定的对象。所以</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>hibernate</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>就是通过将数据表实体类的映射，使得对对象的修改对应数据行的修改。</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>14</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>Struts1</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>与</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>Struts2</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>的区别</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>15</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>最优删除谋字符串的某个字符</span></strong></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>16</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>Arraylist</span></strong></span><strong><span style='font-family:
+宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>与</span></strong><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>linkedlist</span></strong></span><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>的区别</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>都是实现</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>list</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>接口的列表，</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>arraylist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>是基于数组的数据结构，</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>linkedlist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>是基于链表的数据结构，当获取特定元素时，</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>ArrayList</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>效率比较快，它通过数组下标即可获取，而</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>linkedlist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>则需要移动指针。当存储元素与删除元素时</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>linkedlist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>效率较快，只需要将指针移动指定位置增加或者删除即可，而</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>arraylist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>需要移动数据。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>17</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>mybaties</span></strong></span><strong><span style='font-family:
+宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>与</span></strong><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>ibatise</span></strong></span><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>的区别</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>18</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>数据库优化</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>选择合适的字段，比如邮箱字段可以设为</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>char</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>（</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>6</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>），尽量把字段设置为</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>notnull</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>，这样查询的时候数据库就不需要比较</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>null</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>值</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>使用关联查询（</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>&nbsp;left join on</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>）查询代替子查询</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>使用</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>union</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>联合查询手动创建临时表</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>开启事物，当数据库执行多条语句出现错误时，事物会回滚，可以维护数据库的完整性</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>使用外键，事物可以维护数据的完整性但是它却不能保证数据的关联性，<span
+class=GramE>使用外键可以</span>保证数据的关联性</span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>f)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>使用索引，索引是提高数据库性能的常用方法，它可以令数据库服务器以比没有索引快的多的速度检索特定的行，特别是对于</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>max</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>，</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>min</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>，</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>order by</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>查询时，效果更明显</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>g)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>优化的查询语句，绝大多数情况下，使用索引可以提高查询的速度，但如果</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>sql</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>语句使用不恰当的话，索引无法发挥它的特性。</span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>19</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>T<strong><span
+style='font-family:"Arial","sans-serif"'>omcat</span></strong></span><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>服务器优化（内存，并发连接数，缓存）</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>内存优化：主要是对</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>Tomcat</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>启动参数进行优化，我们可以在</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>Tomcat</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>启动脚本中修改它的最大内存数等等。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span class=GramE><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>线程数</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>优化：</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>Tomcat</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>的并发连接参数，主要在</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>Tomcat</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>配置文件中</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>server.xml</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>中配置，比如修改最小空闲连接线程数，用于提高系统处理性能等等。</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>优化缓存：打开压缩功能，修改参数，比如压缩的输出内容大小默认为</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>2KB</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>，可以适当的修改。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>20</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>HTTP</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>协议</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>常用的请求方法有</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>get</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>post</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;Get</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>与</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>post</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>的区别：传送数据，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>get</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>携带参数与访问地址传送，用户可以看见，<span class=GramE>这的话</span>信息会不安全，导致信息泄露。而</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>post</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>则将字段与<span
+class=GramE>对应值</span>封装在实体中传送，这个过程用户是不可见的。</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>Get</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>传递参数有限制，而</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>post</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>无限制。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>21</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>TCP/UDP</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Arial;color:#4F4F4F'>协议</span></strong><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>22</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>Java</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>集合类框架的基本接口有哪些</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;Collection</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>集合接口，</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>List</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>set</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>实现</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>Collection</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>接口，</span><span class=SpellE><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-bidi-font-family:Arial;color:#4F4F4F'>arraylist</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>linkedlist</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>vector</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>实现</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>list</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>接口，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>stack</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>继承</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>vector</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>，</span><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>Map</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>接口，</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>hashtable</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>、</span><span class=SpellE><span lang=EN-US style='font-family:
+"Calibri","sans-serif";mso-bidi-font-family:Arial;color:#4F4F4F'>hashmap</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>实现</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>map</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>接口</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>23</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>类加载的过程</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>遇到一个新的类时，首先会到方法区去找</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>class</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>文件，如果没有找到就会去硬盘中找</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>class</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>文件，找到后会返回，将</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>class</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>文件加载到方法区中，在类加载的时候，静态成员变量会被分配到方法区的静态区域，非静态成员变量分配到非静态区域，然后开始给静态成员变量初始化，赋默认值，<span
+class=GramE>赋完默认</span>值后，会根据静态成员变量书写的位置<span class=GramE>赋显示</span>值，然后执行静态代码。当所有的静态代码执行完，类加载才算完成。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>24</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>对象的创建</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>遇到一个新类时，会进行类的加载，定位到</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>class</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>文件</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>对所有静态成员变量初始化，静态代码块也会执行，而且只在类加载的时候执行一次</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;New&nbsp;</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>对象时，</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>jvm</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>会在堆中分配一个足够大的存储空间</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>存储空间清空，为所有的变量赋默认值，所有的对象引用赋值为</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>null<o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>根据书写的位置给字段一些初始化操作</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>f)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>调用构造器方法（没有继承）</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>25</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+class=SpellE><strong><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>jvm</span></strong></span><strong><span style='font-family:宋体;
+mso-bidi-font-family:Arial;color:#4F4F4F'>的优化</span></strong><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>设置参数，设置</span><span class=SpellE><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'>jvm</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>的最大内存数</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>垃圾<span
+class=GramE>回收器</span>的选择</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>26</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>高并发处理</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>了解一点高并发性问题，比如<span class=GramE>一</span></span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>W</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>人抢一张票时，如何保证票在没买走的情况下所有人都能看见这张票，显然是不能用同步机制，因为</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>synchronize</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>是锁同步一次只能一个人进行。这时候可以用到锁机制，采用乐观锁可以解决这个问题。乐观锁的简单意思是在<span
+class=GramE>不</span>锁定表的情况下，利用业务的控制来解决并发问题，这样即保证数据的可读性，又保证保存数据的排他性，保证性能的同时解决了并发带来的脏读数据问题。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>27</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、<strong><span
+style='font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial'>事物的理解</span></strong></span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>事物具有原子性，一致性，持久性，隔离性</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>原子性：是指在一个事物中，要么全部执行成功，要么全部<span
+class=GramE>失败回滚</span>。</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>一致性：事物执行之前和执行之后都处于一致性状态</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>持久性：事物多数据的操作是永久性</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)&nbsp;</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>隔离性：当一个事物正在对数据进行操作时，另一个事物不可以对数据进行操作，也就是多个并发事物之间相互隔离。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>28</span><span style='mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4F4F4F'>、</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'>Struts</span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>工作流程</span><span lang=EN-US
+style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>a)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>客户端发出一个请求到</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>servlet</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>容器</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>b)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>请求经过<span class=GramE>一些列</span>过滤被</span><span
+class=SpellE><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>filterdispatcher</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>调用，</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>filterdispatch</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>通过</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>actionMapper</span></span><span class=GramE><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>去找相对应</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>的</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>action</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>。</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>c)&nbsp;<span class=SpellE>Actionmapper</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>找到对应的</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>action</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>返回给</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>filterdispatch</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>，</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>dispatch</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>把处理权交给</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>actionproxy</span></span><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>d)&nbsp;<span class=SpellE>Actionproxy</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>通过配置文件找到对应的</span><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>action</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>类</span><span
+lang=EN-US style='font-family:"Arial","sans-serif";color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>e)&nbsp;<span class=SpellE>Actionproxy</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>创建一个</span><span class=SpellE><span
+lang=EN-US style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>actionIinvocation</span></span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>的实例处理业务逻辑</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:19.5pt;
+background:white;word-break:break-all'><span lang=EN-US style='font-family:
+"Arial","sans-serif";color:#4F4F4F'>f)&nbsp;</span><span style='mso-bidi-font-family:
+Arial;color:#4F4F4F'>一旦</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'>action</span><span style='mso-bidi-font-family:Arial;color:#4F4F4F'>处理完毕，</span><span
+class=SpellE><span lang=EN-US style='font-family:"Calibri","sans-serif";
+mso-bidi-font-family:Arial;color:#4F4F4F'>actioninvocation</span></span><span
+style='mso-bidi-font-family:Arial;color:#4F4F4F'>负责根据</span><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>stuts.xml</span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>的配置找到对应的返回结果。返回结果通常是</span><span class=SpellE><span lang=EN-US
+style='font-family:"Calibri","sans-serif";mso-bidi-font-family:Arial;
+color:#4F4F4F'>jsp</span></span><span style='mso-bidi-font-family:Arial;
+color:#4F4F4F'>页面。</span><span lang=EN-US style='font-family:"Arial","sans-serif";
+color:#4F4F4F'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
