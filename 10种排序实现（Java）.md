@@ -13,18 +13,19 @@
 
 冒泡排序，顾名思义，从下往上遍历，每次遍历往上固定一个最小值
 加一个标志位，当某一趟冒泡排序没有元素交换时，则冒泡结束，元素已经有序，可以有效的减少冒泡次数。
-import java.util.*;
+    
+    import java.util.*;
 
-public class BubbleSort {
-    public int[] bubbleSort(int[] A, int n) {
-        //冒泡排序：从后往前（从下往上）就像冒泡一样
-        //用flag作为标记，标记数组是否已经排序完成
-        boolean flag = true;
-        //固定左边的数字
-        for(int i=0; i<n-1&flag; i++){
-            flag = false;
-            //从后面（下面）往前（上）遍历
-            for(int j=n-2;j>=i;j--){
+    public class BubbleSort {
+        public int[] bubbleSort(int[] A, int n) {
+            //冒泡排序：从后往前（从下往上）就像冒泡一样
+            //用flag作为标记，标记数组是否已经排序完成
+            boolean flag = true;
+            //固定左边的数字
+            for(int i=0; i<n-1&flag; i++){
+                flag = false;
+                //从后面（下面）往前（上）遍历
+                for(int j=n-2;j>=i;j--){
 
                 if(A[j]>A[j+1]){
                     swap(A,j,j+1);
@@ -36,13 +37,13 @@ public class BubbleSort {
         return A;
 
     }
-    //数组是按引用传递，在函数中改变数组起作用
-    private void swap(int[] A,int i,int j){
-        int temp = A[i];
-        A[i] = A[j];
-        A[j] = temp;
+      //数组是按引用传递，在函数中改变数组起作用
+        private void swap(int[] A,int i,int j){
+            int temp = A[i];
+            A[i] = A[j];
+            A[j] = temp;
+        }
     }
-}
 
 （二）.简单选择排序
 
@@ -51,20 +52,22 @@ public class BubbleSort {
 
 1.【初始升序】：交换0次，时间复杂度为o(n); 【初始降序】：交换n-1次，时间复杂度为o(n^2)。
 【特点】：交换移动数据次数少，比较次数多。
-import java.util.*;
-/**
+   
+    import java.util.*;
+    
+    /**
 
-**/
-public class SelectionSort {
-    public int[] selectionSort(int[] A, int n) {
-       //简单选择排序算法,排序结果为递增数组
-        //记录最小下标值
-        int min=0;
-        //固定左边的数字
-        for(int i=0; i<A.length-1;i++){
-            min = i;
-            //找到下标i开始后面的最小值
-            for(int j=i+1;j<A.length;j++){
+    **/
+    public class SelectionSort {
+        public int[] selectionSort(int[] A, int n) {
+           //简单选择排序算法,排序结果为递增数组
+            //记录最小下标值
+            int min=0;
+            //固定左边的数字
+            for(int i=0; i<A.length-1;i++){
+                min = i;
+                //找到下标i开始后面的最小值
+                for(int j=i+1;j<A.length;j++){
 
                  if(A[min]>A[j]){
                      min = j;
@@ -94,15 +97,15 @@ public class SelectionSort {
 【题目】对于一个int数组，请编写一个插入排序算法，对数组元素排序。 
 给定一个int数组A及数组的大小n，请返回排序后的数组。
 
-import java.util.*;
+    import java.util.*;
 
-public class InsertionSort {
-    public int[] insertionSort(int[] A, int n) {
-      //用模拟插入扑克牌的思想
-        //插入的扑克牌
-        int i,j,temp;
-        //已经插入一张，继续插入
-        for(i=1;i<n;i++){
+    public class InsertionSort {
+        public int[] insertionSort(int[] A, int n) {
+          //用模拟插入扑克牌的思想
+            //插入的扑克牌
+            int i,j,temp;
+            //已经插入一张，继续插入
+            for(i=1;i<n;i++){
 
             temp = A[i];
             //把i前面所有大于要插入的牌的牌往后移一位，空出一位给新的牌
@@ -129,14 +132,14 @@ public class InsertionSort {
 希尔排序法(缩小增量法) 属于插入类排序，是将整个无序列分割成若干小的子序列分别进行插入排序的方法。
 
 
-import java.util.*;
+    import java.util.*;
 
-public class ShellSort {
-    public int[] shellSort(int[] A, int n) {
-        //要插入的纸牌
-        int temp,j,i;
-        //设定增量D,增量D/2逐渐减小
-        for(int D = n/2;D>=1;D=D/2){
+    public class ShellSort {
+        public int[] shellSort(int[] A, int n) {
+            //要插入的纸牌
+            int temp,j,i;
+            //设定增量D,增量D/2逐渐减小
+            for(int D = n/2;D>=1;D=D/2){
 
             //从下标d开始，对d组进行插入排序
             for(j=D;j<n;j++){
@@ -162,11 +165,12 @@ public class ShellSort {
 
 【堆】 1.堆是完全二叉树 2.大顶堆：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆。3.小顶堆：每个结点的值都大于或等于其左右孩子结点的值，称为小顶堆。
 【完全二叉树性质5】：如果i>1,则双亲是结点[i/2]。也就是说下标i与2i和2i+1是双亲子女关系。 当排序对象为数组时，下标从0开始，所以下标 i 与下标 2i+1和2i+2是双亲子女关系。
-import java.util.*;
 
-public class HeapSort {
-    public int[] heapSort(int[] A, int n) {
-        //堆排序算法
+    import java.util.*;
+
+    public class HeapSort {
+        public int[] heapSort(int[] A, int n) {
+            //堆排序算法
 
         int i;
         //先把A[]数组构建成一个大顶堆。
@@ -184,38 +188,38 @@ public class HeapSort {
         return A;
 
     }
-    //A[i]代表的是下标为i的根结点
-    private void HeapAdjust(int[] A,int i,int n){
-        //【注意】这里下标从0开始
-        int temp;
-        //存储根结点
-        temp = A[i];
-        //沿根结点的左右孩子中较大的往下遍历,由于完全二叉树特性 i的左子节点2i+1  i的右子节点2i+2
-        for(int j=2*i+1;j<n;j=j*2+1){
+        //A[i]代表的是下标为i的根结点
+        private void HeapAdjust(int[] A,int i,int n){
+            //【注意】这里下标从0开始
+            int temp;
+            //存储根结点
+            temp = A[i];
+            //沿根结点的左右孩子中较大的往下遍历,由于完全二叉树特性 i的左子节点2i+1  i的右子节点2i+2
+            for(int j=2*i+1;j<n;j=j*2+1){
 
-            if(j<n-1&&A[j]<A[j+1]){
-                ++j;
-            }
+                if(j<n-1&&A[j]<A[j+1]){
+                    ++j;
+                }
 
-            if(temp>=A[j]){
-                break;
+                if(temp>=A[j]){
+                    break;
+                }
+                //将子节点赋值给根结点
+                A[i] = A[j];
+                //将子节点下标赋给i
+                i = j;
             }
-            //将子节点赋值给根结点
-            A[i] = A[j];
-            //将子节点下标赋给i
-            i = j;
+            //将存储的根结点的值赋给子节点
+            A[i] = temp;
+
         }
-        //将存储的根结点的值赋给子节点
-        A[i] = temp;
+        private void swap(int[] A,int i,int j){
+            int temp = A[i];
+            A[i]=A[j];
+            A[j] = temp;
 
+        }
     }
-    private void swap(int[] A,int i,int j){
-        int temp = A[i];
-        A[i]=A[j];
-        A[j] = temp;
-
-    }
-}
 
 （六）.归并排序算法
 
@@ -225,68 +229,69 @@ public class HeapSort {
 先用递归方法，默认排序方法为2路归并排序。看下图应该能立即理解： 
 这里写图片描述
 先使每个子序列有序，再将两个已经排序的序列合并成一个序列的操作。若将两个有序表合并成一个有序表，称为二路归并。
-import java.util.*;
+   
+    import java.util.*;
 
-public class MergeSort {
-    public int[] mergeSort(int[] A, int n) {
-       //归并排序，递归做法，分而治之
+    public class MergeSort {
+        public int[] mergeSort(int[] A, int n) {
+           //归并排序，递归做法，分而治之
 
-        mSort(A,0,n-1);
-        return A;
-    }
-
-    private void mSort(int[] A,int left,int right){
-        //分而治之，递归常用的思想，跳出递归的条件
-        if(left>=right){
-            return;
+            mSort(A,0,n-1);
+            return A;
         }
-        //中点
-        int mid = (left+right)/2;
-        //有点类似后序遍历！
-        mSort(A,left,mid);
-        mSort(A,mid+1,right);
 
-        merge(A,left,mid,right);
+        private void mSort(int[] A,int left,int right){
+            //分而治之，递归常用的思想，跳出递归的条件
+            if(left>=right){
+                return;
+            }
+            //中点
+            int mid = (left+right)/2;
+            //有点类似后序遍历！
+            mSort(A,left,mid);
+            mSort(A,mid+1,right);
+
+            merge(A,left,mid,right);
 
 
 
-    }
+        }
 
-    //将左右俩组的按序子序列排列成按序序列
-    private void merge(int[] A,int left,int mid,int rightEnd){
-        //充当tem数组的下标
-        int record = left;
-        //最后复制数组时使用
-        int record2 = left;
-        //右子序列的开始下标
-        int m =mid+1;
-        int[] tem = new int[A.length];
+        //将左右俩组的按序子序列排列成按序序列
+        private void merge(int[] A,int left,int mid,int rightEnd){
+            //充当tem数组的下标
+            int record = left;
+            //最后复制数组时使用
+            int record2 = left;
+            //右子序列的开始下标
+            int m =mid+1;
+            int[] tem = new int[A.length];
 
-        //只要left>mid或是m>rightEnd，就跳出循环
-        while(left<=mid&&m<=rightEnd){
+            //只要left>mid或是m>rightEnd，就跳出循环
+            while(left<=mid&&m<=rightEnd){
 
-            if(A[left]<=A[m]){
+                if(A[left]<=A[m]){
 
+                    tem[record++]=A[left++];
+                }else{
+                    tem[record++]=A[m++];
+                }
+
+            }
+            while(left<=mid){
                 tem[record++]=A[left++];
-            }else{
+            }
+            while(m<=rightEnd){
                 tem[record++]=A[m++];
+            }
+            //复制数组
+            for( ;record2<=rightEnd;record2++){
+                A[record2] = tem[record2];
             }
 
         }
-        while(left<=mid){
-            tem[record++]=A[left++];
-        }
-        while(m<=rightEnd){
-            tem[record++]=A[m++];
-        }
-        //复制数组
-        for( ;record2<=rightEnd;record2++){
-            A[record2] = tem[record2];
-        }
 
     }
-
-}
 
 （七）.快速排序算法
 
@@ -300,11 +305,12 @@ public class MergeSort {
 从数列中挑出一个元素，称为”枢轴”（pivot）。
 重新排序数列，所有元素比枢轴值小的摆放在基准前面，所有元素比枢轴值大的摆在枢轴的后面（相同的数可以到任一边）。在这个分区结束之后，该枢轴就处于数列的中间位置。这个称为分区（partition）操作。
 递归地（recursive）把小于枢轴值元素的子数列和大于枢轴值元素的子数列排序。
-import java.util.*;
 
-public class QuickSort {
-    public int[] quickSort(int[] A, int n) {
-        //快速排序
+    import java.util.*;
+
+    public class QuickSort {
+        public int[] quickSort(int[] A, int n) {
+            //快速排序
 
         qSort(A,0,n-1);
 
@@ -396,38 +402,40 @@ public class QuickSort {
 3. 稳定性好，这个是计数排序非常重要的特性，可以用在后面介绍的基数排序中。 
 4. 但需要一些辅助数组，如C[0..k]，因此待排序的关键字范围0~k不宜过大。
 
-import java.util.*;
+   
+   
+        import java.util.*;
 
-public class CountingSort {
-    public int[] countingSort(int[] A, int n) {
-        if(A==null ||n<2){
+        public class CountingSort {
+            public int[] countingSort(int[] A, int n) {
+                if(A==null ||n<2){
+                    return A;
+                }
+                //找出桶的范围,即通过要排序的数组的最大最小值来确定桶范围
+                int min=A[0];
+                int max=A[0];
+                for(int i=0;i<n;i++){
+                    min=Math.min(A[i],min);
+                    max=Math.max(A[i],max);
+                }
+                //确定桶数组，桶的下标即为需排序数组的值，桶的值为序排序数同一组值出现的次数
+                int[] arr = new int[max-min+1];
+                //往桶里分配元素
+                for(int i=0;i<n;i++){
+                    arr[A[i]-min]++;
+                }
+
+            //从桶中取出元素
+            int index=0;
+            for(int i=0;i<arr.length;i++){
+                while(arr[i]-->0){
+                    A[index++]=i+min;
+                }
+            }
+
             return A;
         }
-        //找出桶的范围,即通过要排序的数组的最大最小值来确定桶范围
-        int min=A[0];
-        int max=A[0];
-        for(int i=0;i<n;i++){
-            min=Math.min(A[i],min);
-            max=Math.max(A[i],max);
-        }
-        //确定桶数组，桶的下标即为需排序数组的值，桶的值为序排序数同一组值出现的次数
-        int[] arr = new int[max-min+1];
-        //往桶里分配元素
-        for(int i=0;i<n;i++){
-            arr[A[i]-min]++;
-        }
-
-        //从桶中取出元素
-        int index=0;
-        for(int i=0;i<arr.length;i++){
-            while(arr[i]-->0){
-                A[index++]=i+min;
-            }
-        }
-
-        return A;
     }
-}
 
 （十）.基数排序算法（基于桶排序）
 
@@ -438,11 +446,11 @@ public class CountingSort {
 【题目】对于一个int数组，请编写一个基数排序算法，对数组元素排序。 
 给定一个int数组A及数组的大小n，请返回排序后的数组。保证元素均小于等于2000。
 
-import java.util.*;
-import java.lang.Math;
-public class RadixSort {
-    public int[] radixSort(int[] A, int n) {
-        //基于桶排序的基数排序
+    import java.util.*;
+    import java.lang.Math;
+    public class RadixSort {
+        public int[] radixSort(int[] A, int n) {
+            //基于桶排序的基数排序
 
         //确定排序的趟数，即排序数组中最大值为809时，趟数为3
          int max=A[0];
